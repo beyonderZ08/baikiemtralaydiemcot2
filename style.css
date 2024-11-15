@@ -1,0 +1,160 @@
+/* Tổng thể */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFBF6;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 960px;
+    max-width: 100%;
+}
+
+/* Header */
+header {
+    height:300px;
+    display:flex;
+    flex-direction: column;
+
+}
+header .site-info{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+    font-size:  2rem;
+    color: #B67352;
+    font-family: 'Pacifico', cursive;
+}
+
+header p {
+    text-align: center;
+    font-size: 1rem;
+    color: #C85F39;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    background-color: #8CB9BD;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+}
+
+/* Main layout */
+.main {
+    display: flex;
+    margin-top: 20px;
+}
+.main-content {
+    width: 70%;
+    padding: 0 20px;
+}
+.main-content article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.main-content h2 {
+    font-size: 1.4rem;
+    color: #B67352;
+    margin-bottom: 5px;
+}
+.main-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.main-content img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 1px;
+    float:left;
+    padding:20px
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #E8A75E;
+    padding: 20px;
+    margin-top: -20px;
+
+    color: white;
+}
+
+.sidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.sidebar h3 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.follow-me {
+    margin-top: 20px;
+}
+
+.follow-me p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.follow-me a img {
+    width: 18px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F7EFE9;
+    font-size: 0.9rem;
+    border-top: 1px solid #B67352;
+}
+.social-icon {
+    height: 20px;
+    margin-right: 8px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
