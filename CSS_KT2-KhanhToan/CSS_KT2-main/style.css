@@ -1,0 +1,174 @@
+/* Tổng thể */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #FEFBF6;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 960px;
+    max-width: 1040px; /* Chiều rộng tối đa là 1040px */
+}
+
+/* Header */
+header {
+    height: 250px; /*tổng chiều cao (kể cả menu navbar) là 250px*/
+    display: flex;
+    flex-direction: column;
+    background-color: #FCDC94;
+}
+
+header .site-info {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #B67352;
+    font-family: 'Montserrat', sans-serif; /*Sử dụng font Montserrat cho các tiêu đề h1,h2,h3*/
+    font-weight: bold; /* in đậm */
+    text-transform: uppercase; /* viết hoa */
+}
+
+header p {
+    text-align: center;
+    font-size: 1rem;
+    color: #C85F39;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    background-color: #EF9C66;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+}
+
+/* Main layout */
+.main {
+    flex-direction: row-reverse; /*nằm bên phải màn hình*/
+    display: flex;
+    background-color: #FCDC94;
+}
+
+.main-content {
+    width: 70%;
+    padding: 0 20px;
+}
+
+.main-content article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 1.4rem;
+    color: #B67352;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif; /*Sử dụng font Montserrat cho các tiêu đề h1,h2,h3*/
+}
+
+.main-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.main-content img {
+    width: 100%; 
+    max-width: 300px; /* Kích thước tối đa là 300px */
+    margin-bottom: 1px;
+    float: left;
+    padding: 20px;
+}
+
+
+/* Sidebar */
+.sidebar {
+    width: 30%; /*chiếm 30%*/
+    background-color: #78ABA8;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.sidebar h3 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; /*Sử dụng font Montserrat cho các tiêu đề h1,h2,h3*/
+}
+
+.sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Follow Me */
+.follow-me {
+    margin-top: 20px;
+}
+
+.follow-me p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.follow-me a img {
+    width: 18px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FCDC94;
+    font-size: 0.9rem;
+    border-top: 1px solid #B67352;
+}
+
+.social-icon {
+    height: 20px;
+    margin-right: 8px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h5 {
+    color: #78ABA8;
+}
