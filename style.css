@@ -91,9 +91,9 @@ header p {
 
 .main-content img {
     width: 100%; 
-    max-width: 300px; /* Kích thước tối đa là 300px */
+    max-width: 200px;
     margin-bottom: 1px;
-    float: left;
+    float: right;
     padding: 20px;
 }
 
